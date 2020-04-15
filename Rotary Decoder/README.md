@@ -1,11 +1,12 @@
 # Rotary Decoder
+Nithin Ravani Nanjundaswamy
+
 
 Inputs- Channel A & Channel B pulses 
 Output- integer of 16 bit wide(so integer range is 0 to  2^(16-1))
 1024 pulses per revolution
 As angle is represented by integer ranging 0 to 4095(4x1024), we can deduce that X4 coding  is used
 Clock is not considered and also marker signal Z(denoting one complete revolution) is not considered as it’s not part of given requirements.
-
 
 
 A_previous	B_previous	A	B	output
@@ -24,7 +25,7 @@ B_previous and A has XOR Relationship
 (B_previous XOR A)=0  Decrement
 
 
-TestBench
+####          TestBench
 Minimum 2 revolutions 
 One forward – 1024 pulses
 One reverse – 1024 pulses
