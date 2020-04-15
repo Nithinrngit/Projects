@@ -22,8 +22,8 @@ A_previous   B_previous A   B    output
   
   
 B_previous and A has XOR Relationship  
-(B_previous XOR A)=1  Increment  
-(B_previous XOR A)=0  Decrement  
+(B_previous XOR A)=1 -> Increment  
+(B_previous XOR A)=0 -> Decrement  
   
   
 ####          TestBench  
