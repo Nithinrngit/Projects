@@ -3,20 +3,15 @@ Nithin Ravani Nanjundaswamy
 
 
 Inputs- Channel A & Channel B pulses.
-
 Output- integer of 16 bit wide(so integer range is 0 to  2^(16-1)).
-1024 pulses per revolution
-
+1024 pulses per revolution.
 As angle is represented by integer ranging 0 to 4095(4x1024), we can deduce that X4 coding  is used.
-
 Clock is not considered and also marker signal Z(denoting one complete revolution) is not considered as it’s not part of given requirements.
 
 
 
 A_previous	B_previous	A	B	output
-
 	0			0		1	0	Increment
-	
 	1			0		1	1	Increment
 	1			1		0	1	Increment
 	0			1		0	0	Increment
