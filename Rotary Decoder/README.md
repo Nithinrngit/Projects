@@ -9,7 +9,7 @@ As angle is represented by integer ranging 0 to 4095(4x1024), we can deduce that
 Clock is not considered and also marker signal Z(denoting one complete revolution) is not considered as it’s not part of given requirements.  
   
   
-A_previous &nbsp;   &nbsp; &nbsp;   &nbsp;   &nbsp; &nbsp;   &nbsp;   &nbsp;   B_previous &nbsp;   &nbsp; &nbsp;   &nbsp;   &nbsp; &nbsp;   &nbsp;   &nbsp; A &nbsp; &nbsp;   &nbsp;   &nbsp;  B  &nbsp; &nbsp;   &nbsp;   &nbsp;  output  
+A_previous &nbsp;   &nbsp; &nbsp;   &nbsp;   &nbsp; &nbsp;   &nbsp;   &nbsp;&nbsp;   &nbsp; &nbsp;   &nbsp;   B_previous &nbsp;   &nbsp; &nbsp;   &nbsp;   &nbsp; &nbsp;   &nbsp;   &nbsp; A &nbsp; &nbsp;   &nbsp;   &nbsp;  B  &nbsp; &nbsp;   &nbsp;   &nbsp;  output  
 
 	0			0		1	0	Increment  
 	1			0		1	1	Increment  
